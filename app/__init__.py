@@ -46,6 +46,9 @@ def create_app(settings_module):
     from app.public import public_bp
     app.register_blueprint(public_bp)
     
+    from app.documentation import admin_docs
+    app.register_blueprint(admin_docs)
+    
     # Registra manejadores de errores personalizados
     register_error_handlers(app)
 

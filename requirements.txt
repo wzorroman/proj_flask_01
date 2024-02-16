@@ -14,3 +14,7 @@ text-unidecode==1.2
 WTForms==3.1.2
 python-dateutil==2.8.1
 python-editor==1.0.4
+PyPDF2==3.0.1
+pytesseract==0.3.10
+tesseract-ocr==0.0.1
+python-docx==1.1.0
